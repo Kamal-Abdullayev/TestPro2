@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Index</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="./assets/images/carousel-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item active">
+                    <img src="./assets/images/carousel-2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon carousel-control-icon" aria-hidden="true"></span>
+                <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon carousel-control-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="header-content">
+            <div class="header">
+                <h4>SOLAR ENERGY</h4>
+            </div>
+            <div class="title">
+                <h1>Let The Sun Work For Your Home</h1>
+            </div>
+            <div class="button">
+                <button class="btn btn-light">Get A Quote</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer id="footer">
+        <div class="footer-wrapper">
+            <div class="top-section">
+                <div class="top-section-title">
+                    <h6>OUR OFFICE</h6>
+                    <p>123 Street, New York, USA</p>
+                </div>
+                <div class="top-section-title">
+                    <h6>EMAIL US</h6>
+                    <p>mail@domain.com</p>
+                </div>
+                <div class="top-section-title">
+                    <h6>CALL US</h6>
+                    <p>+012 345 6789</p>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <div class="col-4 left-content">
+                    <div class="content">
+                        <p>
+                            Et et amet ut elitr ipsum sit dolor dolor dolore. Sit accusam elitr ut diam sit rebum. Eirmod duo
+                            kasd diam vero labore sea, est et et lorem ut at erat, gubergren ipsum et ipsum elitr et rebum
+                            rebum
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <div class="icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 midle-content">
+                    <div class="header">
+                        <h5>OUR PRODUCTS</h5>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="">Solar System</a>
+                            </li>
+                            <li>
+                                <a href="">Wind Turbine</a>
+                            </li>
+                            <li>
+                                <a href="">Wind Generator</a>
+                            </li>
+                            <li>
+                                <a href="">Solar Energy</a>
+                            </li>
+                            <li>
+                                <a href="">Solar Panel</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offset-1 col-5 right-content">
+                    <div class="header">
+                        <h5>NEWSLETTER</h5>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor.
+                            Accu kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam
+                        </p>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Your Email Address"
+                               aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Sighn Up</button>
+                    </div>
+                </div>
+            </div><hr style="color: white;">
+        </div>
+        <div class="web-info">
+            <div class="content">
+                <p>© <span><a href="">Domain Name.</a></span> All Rights Reserved. Designed by <span><a href="">HTML Codex</a></span></p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</html>

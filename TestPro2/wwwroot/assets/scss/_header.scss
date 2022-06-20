@@ -1,0 +1,48 @@
+header {
+    #carouselExampleControls {
+        .carousel-inner {
+            .carousel-item {
+                height: 45rem;
+            }
+        }
+
+        .carousel-control-icon{
+            border: 1px solid black;
+            height: 8%;
+            width: 40%;
+            background-color: #009cff;
+
+            :hover{
+                border-color: #009cff
+            }
+        }
+    }
+    .header-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        left: 29%;
+        bottom: 35%;
+        .header{
+            color: white;
+            h4{
+                font-size: 1rem;
+            }
+            
+        }
+        .title{
+            color: white;
+            margin: 5%;     
+            padding: 0px 17%;
+            
+            h1{
+                font-size: 3rem;
+            }
+        }
+        .bottom{
+            border-radius: 0;
+        }
+    }
+}

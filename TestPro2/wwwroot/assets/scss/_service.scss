@@ -1,0 +1,43 @@
+#services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .service-wrapper {
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(0, 156, 255);
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                color: rgb(34, 57, 93);
+                font-weight: 700;
+                font-size: 2rem;
+            }
+
+        }
+
+        .images{
+            display: flex;
+            .card{
+                margin: 0 1%;
+
+                .card-body {
+                    display: flex;
+                    justify-content: center;
+                    color: rgb(34, 57, 93);
+                    background-color: rgb(243, 246, 255);
+                    
+                }
+            }
+        }
+    }
+}

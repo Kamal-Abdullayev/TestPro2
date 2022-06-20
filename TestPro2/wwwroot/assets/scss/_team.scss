@@ -1,0 +1,56 @@
+#team{
+    .team-wrapper{
+        .header {
+            display: flex;
+            justify-content: center;
+            color: rgb(0, 156, 255);
+        }
+    
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                color: rgb(34, 57, 93);
+                font-weight: 700;
+                font-size: 2rem;
+            }
+
+        }
+        .cards-wrapper{
+            .card-content{
+                background-color: #f3f6ff;
+                width: 55%;
+            }
+            .image-wrapper{
+                height: 16rem;
+                width: 15rem;
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .card-body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                padding: 0 22%;
+                padding: 10% 5%;
+            }
+            .icons{
+                display: flex;
+                justify-content: center;
+                margin-top: 5%;
+                .icon{
+                    border: 2px solid rgb(0,156,255);
+                    padding: 2% 3%;
+                    margin: 0 1%;
+                    color: rgb(0,156,255);
+                }
+            }
+        }
+    }
+}

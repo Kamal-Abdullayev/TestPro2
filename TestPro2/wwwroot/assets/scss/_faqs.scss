@@ -1,0 +1,50 @@
+#faqs{
+    margin: 10% 0;
+    .faqs-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(0, 156, 255);
+        }
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                color: rgb(34, 57, 93);
+                font-weight: 700;
+                font-size: 2rem;
+            }
+
+        }
+        .faqs-content-wrapper{
+            display: flex;
+
+            .content{
+                margin: 1%;
+                color: rgb(34, 57, 93);
+                span{
+                    color: rgb(49,170,82);  
+                    margin: 1%;
+                }
+            }
+            .left-content{
+                
+                text-align: right;
+                padding: 0 2%;
+                border-right: 1px solid rgb(0, 156, 255);
+            }
+        }
+        .button{
+            button{
+                background-color: rgb(0,156,255);
+            }
+        }
+    }
+}
